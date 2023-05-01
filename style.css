@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(235, 238, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: skyblue;
+
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(252, 50, 50);
+    position: absolute;
+    margin-bottom: 250px;
+    margin-left: 200px;
+}
+        
+.main1 {
+    width: 100%;
+    height: 100vh;
+    background-color:violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q3{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.q31{
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(123, 119, 119);
+}
+.q32{
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(123, 119, 119);
+}
+.q33{
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(123, 119, 119);
+}
+.main2 {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(236, 240, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: 15%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 480px; */
+}
+.logo{
+    width: 40%;
+    height: 100px;
+font-weight: bold;
+font-size: 25px;
+display: flex;
+align-items: center;
+padding-left: 10px;
+}
+.content{
+    width: 60%;
+    height: 100px;
+font-weight: bold;
+font-size: 20px;
+margin-left: 100px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+button:hover{
+    box-shadow: 1px 2px 2px 2px grey;
+}
+.cards{
+    width:100% ;
+    height: 85%;
+    background-color: rgb(247, 191, 172);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    width: 250px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    border-radius :20px; 
+}
+img{
+    width:200px ;
+    height:180px ;
+}
+.card2{
+    width: 250px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    border-radius :20px; 
+}
+.card3{
+    width: 250px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    border-radius :20px; 
+}
+.main3 {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(211, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    width: 500px;
+    height: 450px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+
+}
+.form input{
+    width: 400px;
+    height: 20px ;
+    
+}
+
+
+
